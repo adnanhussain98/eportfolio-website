@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Adnan Hussain's ePortfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Width of page changes according to the devices screen width. Zooms the page when it's loaded. -->
+        <title>Home | Mohammed Adnan Hussain's ePortfolio</title>
+        <link rel="stylesheet" href="stylesheet.css" type="text/css"> <!-- Links HTML page to CSS -->
+    </head>
+<body>
+        <div id=“container”> <!-- Adds an outer container -->
+        
+        <header class="siteBanner" role="banner"> <!-- Role attribute enables users to navigate to a patricular region. -->
+            <h1><a href="index.html" title="About Me">
+                <img id="mmuLogo" src="images/mmulogo.png" title="Manchester Metropolitan University" alt="Manchester Metropolitan University logo" width="150" height="175">
+                MOHAMMED ADNAN HUSSAIN</a></h1> <!-- Added my name as the title for my website banner. MMU logo has also been entered into the href so both picture and text is clickable. Title shows when user hovers over it and alt text will be read by screen readers. Width and height of the logo has been set. -->
+        </header>
+        
+        <a href="#content" class="skipContent" title="skip to content">Skip to content</a> <!-- This allows people using screen readers to skip to the content instead of listening to the navigation menu repeatedly. -->
+        
+        <nav class="navBar" role="navigation"> <!-- Users can skip to the navigation due to the role attribute. -->
+            <ul> <!-- Navigation menu -->
+                <li><a href="index.html" title="Home page">HOME</a></li>
+                <li><a href="qualifications.html" title="Qualifications page">QUALIFICATIONS</a></li>
+                <li><a href="programming.html" title="Programming page">PROGRAMMING</a></li>
+                <li><a href="webdev.html" title="Web design and development page">WEB DESIGN &amp; DEVELOPMENT</a></li>
+                <li><a href="csf.html" title="Computer System Fundamentals page">COMPUTER SYSTEM FUNDAMENTALS</a></li>
+                <li><a href="infosystems.html" title="Unit 1 and 2 page">INFORMATION SYSTEMS</a></li>
+                <li><a href="selfassessment.html" title="Self Assessment page">SELF ASSESSMENT</a></li>
+            </ul>
+        </nav>
+        
+        <h2>INFORMATION SYSTEMS</h2>    
+        
+        <article id="programming" role="main">
+            
+            <p><img id="visualParadigm" src="images/visualParadigm.jpg" title="Visual Paradigm logo" alt="Visual Paradigm logo" width="170" height="170">I have been using Visual Paradigm for the group assignment in Information Systems. This software enables me to create use case diagrams and entity relationship diagrams. It was a bit complicated to use at first as there were many things to consider, such as the different types of cardinalities.</p>
+            
+            <p>For the group assignment, we were given a case study on Rays Rentals. The end goal for this is to have a fully working database to replace his existing paper based system. As this is a group assignment, it is abit easier to understand what we need to do as everyone is able to collaborate ideas.</p>
+
+            <p>Below, you can see a screenshot of an ERD we created.<img id="erd" src="images/erd.png" title="Rays rentals ERD" alt="Rays rentals ERD" width="720" height="450"></p>
+                
+        </article>
+        
+        <div id="boxPosition"> <!-- aside goes in the div so I can change the position of the box -->
+        <aside id="aboutCourse">
+            <h3>ABOUT THE COURSE</h3>
+            
+            <p>An introduction to the use of information systems in organisations which will show you how to develop key systems analysis techniques to be applied to information systems built on a commercial RDBMS. You will also develop essential communication skills. You will examine business activities supported by information systems including case studies and examples, e-commerce, management information, privacy. Systems analysis and design techniques: use cases, UML. Database management systems and database design: ERDs, normalisation, SQL. Communication and teamwork skills.</p>
+    
+        </aside>
+        </div>
+        
+        <footer>
+            <p><a href="index.html">© Adnan Hussain</a> | <a href="http://www2.mmu.ac.uk/">Manchester Metropolitan University</a> | <a href="mailto:16028929@stu.mmu.ac.uk"> 16028929@stu.mmu.ac.uk</a></p> <!-- First link is internal and directs you to the home page. The second link is external and the last link opens up the users mail app and composes a message to my email address. -->
+        </footer>
+        
+        </div> <!-- Closes "container" -->        
+    </body>
+</html>

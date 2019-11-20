@@ -1,0 +1,277 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video /* CSS reset - This overrules the browsers default styling */
+
+/*----------------------------------------INDEX PAGE-----------------------------------------------------*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "open_sansregular",Helvetica,Arial,sans-serif;     /*This font style will be consistent throughout the website. */ 
+    color: black;                                                   /*black text font will be consistent throughout the website. */     
+}
+
+                                        /*BANNER*/
+
+.siteBanner h1{
+    width: 100%;                                    /*Makes the banner take up the whole width of the page*/
+    background-image: url(images/banner1.jpg);      /*Added banner as background image to the text*/
+    line-height: 5.2cm;                             /*Sets the banner height*/
+    font-size: 2.5em;                               /*Changes text font size*/
+    text-align: center;                             /*Alligns h1 title to centre*/
+}
+
+#mmuLogo{
+    float: left;                                    /*Floated to the left so it's fixed on the left of the  page*/
+    margin-top: 13px;                               /*Used to push the logo down from the top*/
+}
+
+
+                                        /*SKIP TO CONTENT ACCESSIBILITY BUTTON*/
+
+.skipContent{
+    position: absolute;       /*positions the skip link off the screen so you can't visually see it*/
+    top: -1000px;
+    left: -1000px;
+    height: 1px;
+    width: 1px;
+    text-align: left;
+    overflow: hidden;
+}
+
+a.skipContent:active, 
+a.skipContent:focus,          /*focus class will make the skip link pop up when you tab and the hover class will make it visible*/
+a.skipContent:hover{
+        left: 0; 
+        top: 0;
+        width: auto; 
+        height: auto; 
+        overflow: visible; 
+        color: white;
+    }
+
+                                    /*NAVIGATION BAR*/
+
+.navBar{
+    background-color: black;    /* Added a black banner as the background of my navigation menu. */
+}
+
+ul{   
+    list-style: none;           /* Removes the bullet points from the navigation menu. */
+    text-align: center;         /* Alligns navigation list to the middle of the page. */
+    padding: 20px 0;            /* Top and right padding to style the nav bar. */ 
+}
+
+ul li{    
+    display:inline-block;       /* This puts the navigation list on the same line. */
+    padding-right: 40px;        /* Padding right added to space out the navigation menu. */
+}
+
+ul li a{    
+    text-decoration: none;      /*Ensures that hyperlinks aren't visible. */
+    color: white;               /* Sets the navigation font to white. */
+    font-weight: bold;          /* Sets the font to bold. */
+}
+
+                                    /*LINK STYLES*/
+
+ul li a:hover{
+    color:gainsboro;            /* Highlights text when you hover over with a mouse. */
+}
+
+p a:hover{                      /*links are underlined and coloured blue when hovered over*/
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+p a:visited{                    /*links that have been visited are coloured purple*/
+    color: #800080;
+}
+
+p a{
+    text-decoration: none;
+}
+
+                                        /*ABOUT ME*/
+
+.me{                            /*positions picture of me to the left of the page and creates whitespace with padding.*/
+    float: left;
+    padding: 0px 20px 20px 0px;
+}
+
+h1,h2,{                         /*headings are bold and centralised*/
+    text-align: center;         
+    font-weight: bold;
+}
+
+h2{                             
+    text-align: center;         
+    font-size: 1.8em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+p{
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+                                        /*FOOTER*/
+
+footer{
+    clear:both;
+    background-color: black;
+    text-align: center;
+}
+
+footer a{                       /* Removes the underline from hyperlinks and inherits the parent colour. */
+    color: inherit;
+    padding: 15px;/
+}
+
+footer p{
+    background-color: black;
+    color:white;
+    font-size: 0.83em;
+}
+
+
+/*----------------------------------------QUALIFICATIONS PAGE-----------------------------------------------------*/
+
+#school{
+    border-collapse: collapse;  /*removes border around the table*/
+    float: left;                /*fixes the table to the left of the page*/
+    width: 45%;                 /*percentage of the pagen taken by the table*/  
+    margin: 30px;               /*spaces out the table*/
+}
+
+#college{
+    border-collapse: collapse;  /*removes border around the table*/
+    float: right;               /*fixes the table to the left of the page*/
+    width: 45%;                 /*percentage of the pagen taken by the table*/
+    margin: 30px;               /*spaces out the table*/
+}
+
+table, th, td {
+    font-weight: bold;              /*makes the font bold*/
+    padding: 10px;                  /*spaces out the rows*/
+    background-color: gainsboro;    /*grey background colour*/
+    border: 3px solid black;        /*set border thickness and colour*/
+    text-align: center;             
+    color: black;                   /*black font colour*/
+}
+
+th {
+    background-color:whitesmoke;    /*changes background colour of the table's title*/
+}
+
+/*----------------------------------------PROGRAMMING-----------------------------------------------------*/
+                                            
+                                    /*ABOUT COURSE ASIDE*/
+
+#aboutCourse{                /*positions the "about the course" aside section to the right of the page.*/
+    width: 30%;
+    float: right;
+    background-color: gainsboro;
+    border-style: solid;
+    border-width: 7px;
+    padding: 20px;
+}
+
+h3{
+    background-color: whitesmoke;
+    border-style: solid;        /*creates a border around the "about the course" title.*/
+    border-width: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxPosition{                   /*positions the "about the course" box.*/
+    padding: 20px;
+}
+
+                                    /*PROGRAMMING ARTICLE*/
+
+#programming{                   /*positions the programming article to the left of the page.*/       
+    width: 65%;
+    float: left;
+    padding-top: 20px;
+}
+
+#processing{             /*positions processing logo to the left so it's not in line with the text.*/
+    float: left;
+}
+
+#stickman{
+    width: 720px;
+    display: block;
+    margin: auto;
+    padding-top: 25px;
+}
+
+/*----------------------------------------WEB DESIGN & DEVELOPMENT-----------------------------------------------------*/
+
+#webdev{                   /*positions the webdev article to the left of the page.*/       
+    width: 65%;
+    float: left;
+    padding-top: 20px;
+}
+
+#website{
+    width: 720px;
+    display: block;
+    margin: auto;
+    padding-top: 25px;
+}
+
+/*----------------------------------------COMPUTER SYSTEM FUNDAMENTALS-----------------------------------------------------*/
+
+
+#logisim{             /*positions logisim logo to the left so it's not in line with the text.*/
+    float: left;
+}
+
+#maths{
+    width: 720px;
+    display: block;
+    margin: auto;
+    padding-top: 25px;
+}
+
+/*----------------------------------------INFORMATION SYSTEMS-----------------------------------------------------*/
+
+#visualParadigm{             /*positions visual paradigm logo to the left so it's not in line with the text.*/
+    float: left;
+}
+
+#erd{
+    width: 720px;
+    display: block;
+    margin: auto;
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

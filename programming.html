@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Adnan Hussain's ePortfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Width of page changes according to the devices screen width. Zooms the page when it's loaded. -->
+        <title>Home | Mohammed Adnan Hussain's ePortfolio</title>
+        <link rel="stylesheet" href="stylesheet.css" type="text/css"> <!-- Links HTML page to CSS -->
+    </head>
+<body>
+        <div id=“container”> <!-- Adds an outer container -->
+        
+        <header class="siteBanner" role="banner"> <!-- Role attribute enables users to navigate to a patricular region. -->
+            <h1><a href="index.html" title="About Me">
+                <img id="mmuLogo" src="images/mmulogo.png" title="Manchester Metropolitan University" alt="Manchester Metropolitan University logo" width="150" height="175">
+                MOHAMMED ADNAN HUSSAIN</a></h1> <!-- Added my name as the title for my website banner. MMU logo has also been entered into the href so both picture and text is clickable. Title shows when user hovers over it and alt text will be read by screen readers. Width and height of the logo has been set. -->
+        </header>
+        
+        <a href="#programming" class="skipContent" title="skip to content">Skip to content</a> <!-- This allows people using screen readers to skip to the content instead of listening to the navigation menu repeatedly. -->
+        
+        <nav class="navBar" role="navigation"> <!-- Users can skip to the navigation due to the role attribute. -->
+            <ul> <!-- Navigation menu -->
+                <li><a href="index.html" title="Home page">HOME</a></li>
+                <li><a href="qualifications.html" title="Qualifications page">QUALIFICATIONS</a></li>
+                <li><a href="programming.html" title="Programming page">PROGRAMMING</a></li>
+                <li><a href="webdev.html" title="Web design and development page">WEB DESIGN &amp; DEVELOPMENT</a></li>
+                <li><a href="csf.html" title="Computer System Fundamentals page">COMPUTER SYSTEM FUNDAMENTALS</a></li>
+                <li><a href="infosystems.html" title="Unit 1 and 2 page">INFORMATION SYSTEMS</a></li>
+                <li><a href="selfassessment.html" title="Self Assessment page">SELF ASSESSMENT</a></li>
+            </ul>
+        </nav>
+        
+        <h2>PROGRAMMING</h2>    
+        
+        <article id="programming" role="main">
+            
+            <p><img id="processing" src="images/processing.png" title="Processing logo" alt="Processing logo" width="170" height="170">The application I have been using in my programming lab sessions is <a href="https://processing.org/"> Processing</a>. This is a software sketchbook for learning how to code and in this case, I’m coding in Java.</p>
+            
+            <p>Each week I have learnt something new and have applied it to the portfolio exercises that were set. For example, the first portfolio task asks me to draw a stickman. It was quite simple and took me a few attempts to get the positioning of each body part correct. As the weeks progressed, my coding skills improved drastically as I was able carry out processes such as while loops and if statements.</p>
+            
+            <p>I found the first few weeks of programming straight forward and quite easy but one thing I struggled on was if statements. I found it a bit difficult to write the correct syntax for an if statement as it could get confusing depending on what the portfolio brief is.</p>
+            
+            <p>Below, you can see a screenshot of the stickman portfolio task that I completed in the first week.<img id="stickman" src="images/stickman.png" title="Stickman portfolio task" alt="Stickman portfolio task" width="720" height="450"></p>
+                
+        </article>
+        
+        <div id="boxPosition"> <!-- aside goes in the div so I can change the position of the box -->
+        <aside id="aboutCourse">
+            <h3>ABOUT THE COURSE</h3>
+            
+            <p>This unit introduces computer programming in a high level programming language and includes principles and practice in problem solving, program design, solution implementation and testing, including:</p>
+    
+                <li>Introduction to programming using Java</li>
+                <li>Software life cycle: importance of correctly identifying the problem, iterative nature of software development, software maintenance</li>
+                <li>Design methodology: the application of the top-down design method using step-wise refinement to produce pseudo-code solutions to problems, incorporating constructs for sequence selection, iteration, abstraction and re-use</li>
+                <li>Verification and testing: the use of desk-top execution, simple debugging strategies and more formal approaches to testing e.g. black box white box boundary analysis and equivalence classes</li>
+                <li>Applications of standards and conventions: software maintenance and developing a professional approach to coding</li>
+                <li>Constructs and features of a structured high level programming language: control constructs, operators, procedural abstraction, simple I/O and use of libraries</li>
+                <li>Data types – primitive types: constants, variables, arrays and simple structured data</li>
+                <li>Object orientated design and implementation: inheritance and polymorphism</li>
+                <li>Software support environment: use of an IDE editors compiler/linkers and operating systems</li>
+        </aside>
+        </div>
+        
+                
+        <footer>
+            <p><a href="index.html">© Adnan Hussain</a> | <a href="http://www2.mmu.ac.uk/">Manchester Metropolitan University</a> | <a href="mailto:16028929@stu.mmu.ac.uk"> 16028929@stu.mmu.ac.uk</a></p> <!-- First link is internal and directs you to the home page. The second link is external and the last link opens up the users mail app and composes a message to my email address. -->
+        </footer>
+        
+        </div> <!-- Closes "container" -->        
+    </body>
+</html>

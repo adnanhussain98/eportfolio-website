@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Adnan Hussain's ePortfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Width of page changes according to the devices screen width. Zooms the page when it's loaded. -->
+        <title>Home | Mohammed Adnan Hussain's ePortfolio</title>
+        <link rel="stylesheet" href="stylesheet.css" type="text/css"> <!-- Links HTML page to CSS -->
+    </head>
+<body>
+        <div id=“container”> <!-- Adds an outer container -->
+        
+        <header class="siteBanner" role="banner"> <!-- Role attribute enables users to navigate to a patricular region. -->
+            <h1><a href="index.html" title="About Me">
+                <img id="mmuLogo" src="images/mmulogo.png" title="Manchester Metropolitan University" alt="Manchester Metropolitan University logo" width="150" height="175">
+                MOHAMMED ADNAN HUSSAIN</a></h1> <!-- Added my name as the title for my website banner. MMU logo has also been entered into the href so both picture and text is clickable. Title shows when user hovers over it and alt text will be read by screen readers. Width and height of the logo has been set. -->
+        </header>
+        
+        <a href="#webdev" class="skipContent" title="skip to content">Skip to content</a> <!-- This allows people using screen readers to skip to the content instead of listening to the navigation menu repeatedly. -->
+        
+       <nav class="navBar" role="navigation"> <!-- Users can skip to the navigation due to the role attribute. -->
+            <ul> <!-- Navigation menu -->
+                <li><a href="index.html" title="Home page">HOME</a></li>
+                <li><a href="qualifications.html" title="Qualifications page">QUALIFICATIONS</a></li>
+                <li><a href="programming.html" title="Programming page">PROGRAMMING</a></li>
+                <li><a href="webdev.html" title="Web design and development page">WEB DESIGN &amp; DEVELOPMENT</a></li>
+                <li><a href="csf.html" title="Computer System Fundamentals page">COMPUTER SYSTEM FUNDAMENTALS</a></li>
+                <li><a href="infosystems.html" title="Unit 1 and 2 page">INFORMATION SYSTEMS</a></li>
+                <li><a href="selfassessment.html" title="Self Assessment page">SELF ASSESSMENT</a></li>
+            </ul>
+        </nav>
+        
+        <h2>COMPUTER SYSTEM FUNDAMENTALS</h2>    
+        
+        <section id="webdev" role="main">
+            
+            <p>This module is quite different to the other modules i'm studying as it is split into two components. There's the digital logic and assembly language programming and then there's mathematics involved aswell.</p>
+            
+            <p><img id="logisim" src="images/logisim.png" title="Logisim logo" alt="Logisim logo" width="150" height="150">I found the first few weeks of CSF quite easy as we were learning about logic gates, which I have learnt about in school when chose the Electronics course. We used the program Logisim to simulate digital logic circuits and we were able to find out the truth tables and boolean expressions of any circuits we built.
+            
+            <p>In mathematics so far we have covered sets, matrices and vectors. There are a lot of rules that you must learn and understand and that's the only struggle I'm having as sometimes, I find it difficult to know which rule I should apply to the question given. This is something I will practice so that I can complete the assignment that will be given out to complete.
+            
+            <p>In the screenshot below, you can see the types of questions that come up in the mini test for mathematics.<img id="maths" src="images/maths.png" title="Stickman portfolio task" alt="Stickman portfolio task" width="720" height="450"></p>
+                
+        </section>
+        
+        <div id="boxPosition"> <!-- aside goes in the div so I can change the position of the box -->
+        <aside id="aboutCourse">
+            <h3>ABOUT THE COURSE</h3>
+            
+            <p>This unit provides an introduction to the fundamental principles and mathematics underpinning the design and construction of computer systems, including:</p>
+    
+            <li>Digital Logic and Boolean Algebra: digital logic gates and circuits, Karnaugh maps, use of a digital logic circuit simulator, components of a CPU, processor model, Fetch execute cycle, hardware interrupts</li>
+            <li>Assembly Language Programming: relationship between high level languages and assembler, instruction sets, registers, debugging</li>
+            <li>Discrete Mathematics: matrices and vectors, matrices as linear transforms</li>
+            <li>Functions: definition, properties</li>
+            <li>Sets: subsets, set algebra</li>
+            <li>Logic: propositions, predicates, propositional algebra, proof of simple results</li>
+        </aside>
+        </div>
+                
+        <footer>
+            <p><a href="index.html">© Adnan Hussain</a> | <a href="http://www2.mmu.ac.uk/">Manchester Metropolitan University</a> | <a href="mailto:16028929@stu.mmu.ac.uk"> 16028929@stu.mmu.ac.uk</a></p> <!-- First link is internal and directs you to the home page. The second link is external and the last link opens up the users mail app and composes a message to my email address. -->
+        </footer>
+        
+        </div> <!-- Closes "container" -->        
+    </body>
+</html>
